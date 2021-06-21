@@ -33,9 +33,9 @@ const CARDS = [
     link: "https://dashboard.myzeller.dev/portal/overview",
   },
   {
-    name: "Figma",
-    icon: "ri-brush-fill",
-    link: "https://www.figma.com/",
+    name: "Hotjar",
+    icon: "ri-fire-fill",
+    link: "https://insights.hotjar.com/",
   },
 ];
 
