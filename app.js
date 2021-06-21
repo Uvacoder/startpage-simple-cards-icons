@@ -20,42 +20,22 @@ const CARDS = [
   {
     name: "Confluence",
     icon: "ri-file-list-fill",
-    link: "https://codesandbox.io/dashboard/",
+    link: "https://npco-dev.atlassian.net/wiki/home",
   },
   {
-    name: "Dribbble",
-    icon: "ri-dribbble-fill",
-    link: "https://dribbble.com/",
+    name: "Jira",
+    icon: "ri-task-fill",
+    link: "https://npco-dev.atlassian.net/jira/projects",
   },
   {
-    name: "Reddit",
-    icon: "ri-reddit-fill",
-    link: "https://www.reddit.com/",
-  },
-  {
-    name: "Github",
-    icon: "ri-github-fill",
-    link: "https://github.com/",
+    name: "Zeller Dashboard",
+    icon: "ri-dashboard-fill",
+    link: "https://dashboard.myzeller.dev/portal/overview",
   },
   {
     name: "Figma",
     icon: "ri-brush-fill",
     link: "https://www.figma.com/",
-  },
-  {
-    name: "YouTube",
-    icon: "ri-youtube-fill",
-    link: "https://www.youtube.com/",
-  },
-  {
-    name: "LinkedIn",
-    icon: "ri-linkedin-fill",
-    link: "https://www.linkedin.com/",
-  },
-  {
-    name: "Gmail",
-    icon: "ri-google-fill",
-    link: "https://mail.google.com/",
   },
 ];
 
