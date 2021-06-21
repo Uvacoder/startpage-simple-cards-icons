@@ -4,22 +4,22 @@
 
 /* -------------------------------------------------------- */
 
-const NAME = "Reyes";
+const NAME = "Jesse";
 
 const CARDS = [
   {
-    name: "Twitter",
-    icon: "ri-twitter-fill",
-    link: "https://twitter.com",
+    name: "Gmail",
+    icon: "ri-mail-fill",
+    link: "https://mail.google.com/mail/u/0/#inbox",
   },
   {
-    name: "Hashnode",
-    icon: "ri-chat-1-fill",
-    link: "https://hashnode.com/",
+    name: "Calendar",
+    icon: "ri-calendar-fill",
+    link: "https://calendar.google.com/calendar/u/0/r/week?tab=mc&pli=1",
   },
   {
-    name: "CodeSandbox",
-    icon: "ri-cloud-fill",
+    name: "Confluence",
+    icon: "ri-file-list-fill",
     link: "https://codesandbox.io/dashboard/",
   },
   {
