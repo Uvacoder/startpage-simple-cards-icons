@@ -37,6 +37,11 @@ const CARDS = [
     icon: "ri-fire-fill",
     link: "https://insights.hotjar.com/",
   },
+  {
+    name: "Trello",
+    icon: "ri-trello-fill",
+    link: "  https://trello.com/b/OgDVzuu2/zeller-development",
+  },  
 ];
 
 /* -------------------------------------------------------- */
