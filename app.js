@@ -28,9 +28,14 @@ const CARDS = [
     link: "https://npco-dev.atlassian.net/jira/projects",
   },
   {
-    name: "Zeller Dashboard",
-    icon: "ri-dashboard-fill",
+    name: "Zeller Dev Dashboard",
+    icon: "ri-dashboard-line",
     link: "https://dashboard.myzeller.dev/portal/overview",
+  },
+  {
+    name: "Zeller Prod Dashboard",
+    icon: "ri-dashboard-fill",
+    link: "https://dashboard.myzeller.com/portal/overview",
   },
   {
     name: "Hotjar",
