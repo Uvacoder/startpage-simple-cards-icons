@@ -49,7 +49,7 @@ const CARDS = [
   },
   {
     name: "Productboard",
-    icon: "ri-list-check-fill",
+    icon: "ri-list-check-2",
     link: "https://zeller.productboard.com",
   },  
 ];
