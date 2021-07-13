@@ -28,12 +28,12 @@ const CARDS = [
     link: "https://npco-dev.atlassian.net/jira/projects",
   },
   {
-    name: "Zeller Dev Dashboard",
+    name: "Zeller Dev",
     icon: "ri-dashboard-line",
     link: "https://dashboard.myzeller.dev/portal/overview",
   },
   {
-    name: "Zeller Prod Dashboard",
+    name: "Zeller Prod",
     icon: "ri-dashboard-fill",
     link: "https://dashboard.myzeller.com/portal/overview",
   },
