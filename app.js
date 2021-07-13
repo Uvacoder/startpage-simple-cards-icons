@@ -4,7 +4,7 @@
 
 /* -------------------------------------------------------- */
 
-const NAME = "Jesse";
+const NAME = "Zellerite";
 
 const CARDS = [
   {
@@ -40,7 +40,17 @@ const CARDS = [
   {
     name: "Trello",
     icon: "ri-trello-fill",
-    link: "  https://trello.com/b/OgDVzuu2/zeller-development",
+    link: "https://trello.com/b/OgDVzuu2/zeller-development",
+  },
+  {
+    name: "Excalidraw",
+    icon: "ri-quill-pen-fill",
+    link: "https://excalidraw.com/",
+  },
+  {
+    name: "Productboard",
+    icon: "ri-list-check-2-fill",
+    link: "https://zeller.productboard.com",
   },  
 ];
 
