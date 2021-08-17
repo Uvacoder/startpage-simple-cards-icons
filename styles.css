@@ -126,6 +126,18 @@ main {
   place-items: center;
 }
 
+.card__emoji {
+  font-size: 50pt;
+
+  padding: 0.2rem;
+
+  /*background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 50%;*/
+
+  display: grid;
+  place-items: center;
+}
+
 .card__name {
   font-weight: 600;
 
