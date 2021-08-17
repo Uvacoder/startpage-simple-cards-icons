@@ -9,51 +9,61 @@ const NAME = "Zellerite";
 const CARDS = [
   {
     name: "Gmail",
+    emoji:"📧",
     icon: "ri-mail-fill",
     link: "https://mail.google.com/mail/u/0/#inbox",
   },
   {
     name: "Calendar",
+    emoji:"🗓",
     icon: "ri-calendar-fill",
     link: "https://calendar.google.com/calendar/u/0/r/week?tab=mc&pli=1",
   },
   {
     name: "Confluence",
+    emoji:"📄",
     icon: "ri-file-list-fill",
     link: "https://npco-dev.atlassian.net/wiki/home",
   },
   {
     name: "Jira",
+    emoji:"💎",
     icon: "ri-task-fill",
     link: "https://npco-dev.atlassian.net/jira/projects",
   },
   {
     name: "Zeller Dev",
+    emoji:"⚙️",
     icon: "ri-dashboard-line",
     link: "https://dashboard.myzeller.dev/portal/overview",
   },
   {
     name: "Zeller Prod",
+    emoji:"🚀",
     icon: "ri-dashboard-fill",
     link: "https://dashboard.myzeller.com/portal/overview",
   },
   {
     name: "Hotjar",
+    emoji:"🔥",
     icon: "ri-fire-fill",
     link: "https://insights.hotjar.com/",
   },
   {
     name: "Trello",
+    emoji:"📥",
     icon: "ri-trello-fill",
     link: "https://trello.com/b/OgDVzuu2/zeller-development",
   },
   {
     name: "Excalidraw",
+    emoji:"🗡",
     icon: "ri-quill-pen-fill",
     link: "https://excalidraw.com/",
   },
   {
     name: "Productboard",
+    emoji:"🍱",
     icon: "ri-list-check-2",
     link: "https://zeller.productboard.com",
   },  
@@ -131,20 +141,27 @@ const printCards = () => {
     let currentCard = document.createElement("a");
     let currentCardText = document.createElement("p");
     currentCardText.appendChild(document.createTextNode(card.name));
-    let currentCardIcon = document.createElement("i");
-    currentCardIcon.classList.add(card.icon);
+    let currentCardEmoji = document.createElement("p");
+    currentCardEmoji.appendChild(document.createTextNode(card.emoji));
+    //currentCardEmoji.classList.add(card.emoji);
+    //let currentCardIcon = document.createElement("i");
+    //currentCardIcon.classList.add(card.icon);
 
     // Style the Card Element
     currentCard.classList.add("card");
     currentCard.href = card.link;
 
+    // Style the Emoji
+    currentCardEmoji.classList.add("card__emoji");    
+
     // Style the Icon
-    currentCardIcon.classList.add("card__icon");
+    //currentCardIcon.classList.add("card__icon");
 
     // Style the Text
     currentCardText.classList.add("card__name");
 
-    currentCard.append(currentCardIcon);
+    //currentCard.append(currentCardIcon);
+    currentCard.append(currentCardEmoji);
     currentCard.append(currentCardText);
     cardContainer.appendChild(currentCard);
   }
