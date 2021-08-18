@@ -1,4 +1,4 @@
-![](./assets/header.png)
+![](./assets/header.jpg)
 
 ### Root is a start-page aimed at simplicity and elegance
 
