@@ -1,4 +1,4 @@
-![](./assets/header.jpg)
+![](./assets/header.png)
 
 ### Root is a start-page aimed at simplicity and elegance
 
@@ -49,7 +49,7 @@ To add a new card, just append a new object to the `CARDS` constant. The object 
 ```js
 {
   name: "<Webpage Name>",
-  emoji:"<Emoji>",
+  emoji: "<Emoji>",
   link: "<Webpage Link>"
 },
 ```
