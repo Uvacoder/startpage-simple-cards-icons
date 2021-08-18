@@ -23,7 +23,7 @@ To change the colors used in the startpage edit `styles.css`.
 
 ### Changin Name and Adding Custom Cards
 
-> ~~This project uses [Remix Icons](https://remixicon.com/).~~ This project now uses Native Emoji's as icons.
+> ~~This project uses [Remix Icons](https://remixicon.com/).~~ This project now uses Native Emoji's as icons. 🤙 🤙 🤙 🤙
 
 To change the default name and edit the cards, edit `app.js`. It should look something like this:
 
