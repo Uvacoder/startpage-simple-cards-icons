@@ -1,14 +1,14 @@
 ![](./assets/header.png)
 
-### Root is a start-page aimed to simplicity and elegance
+### Root is a start-page aimed at simplicity and elegance
 
-This project is blazing fast :zap:, it only contains an html, css and javascript files.
+This project is blazing fast :zap:, it only contains html, css and javascript files.
 
 ## Customizing
 
 Root was created to be lightweight, fast and easy to customize.
 
-### Changin Colors
+### Changing Colors
 
 To change the colors used in the startpage edit `styles.css`.
 
@@ -23,7 +23,7 @@ To change the colors used in the startpage edit `styles.css`.
 
 ### Changin Name and Adding Custom Cards
 
-> This project uses [Remix Icons](https://remixicon.com/).
+> ~~This project uses [Remix Icons](https://remixicon.com/).~~ This project now uses Native Emoji's as icons.
 
 To change the default name and edit the cards, edit `app.js`. It should look something like this:
 
@@ -33,12 +33,12 @@ const NAME = "John Doe";
 const CARDS = [
   {
     name: "Twitter",
-    icon: "ri-twitter-fill",
+    emoji: "🐦",
     link: "https://twitter.com",
   },
   {
     name: "Github",
-    icon: "ri-github-fill",
+    emoji: "🧑🏻‍💻",
     link: "https://github.com/",
   },
 ];
@@ -49,9 +49,9 @@ To add a new card, just append a new object to the `CARDS` constant. The object 
 ```js
 {
   name: "<Webpage Name>",
-  icon: "<Icon Class-Name>",
+  emoji:"<Emoji>",
   link: "<Webpage Link>"
 },
 ```
 
-> To get the icon class-name, just go to [Remix Icons](https://remixicon.com/), select the desired icon. You should see something like this: `<i class="this-is-the-class-name"></i>`.
+> ~~To get the icon class-name, just go to [Remix Icons](https://remixicon.com/), select the desired icon. You should see something like this: `<i class="this-is-the-class-name"></i>`.~~
