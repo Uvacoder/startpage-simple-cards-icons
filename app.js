@@ -43,6 +43,13 @@ const CARDS = [
     link: "https://npco-dev.atlassian.net/jira/projects",
   },
   {
+    name: "Hubspot",
+    emoji:"📇",
+    image:"jira",
+    icon: "ri-task-fill",
+    link: "https://app.hubspot.com/",
+  },
+  {
     name: "Zeller Dev",
     emoji:"⚙️",
     image:"cash_app_alt",
