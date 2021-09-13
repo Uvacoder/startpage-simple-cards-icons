@@ -22,6 +22,13 @@ const CARDS = [
     link: "https://calendar.google.com/calendar/u/0/r/week?tab=mc&pli=1",
   },
   {
+    name: "Google Meet",
+    emoji:"📸",
+    image:"calendar",
+    icon: "ri-calendar-fill",
+    link: "https://meet.google.com",
+  },
+  {
     name: "Confluence",
     emoji:"📄",
     image:"confluence",
@@ -76,6 +83,27 @@ const CARDS = [
     image:"clip_stack",
     icon: "ri-list-check-2",
     link: "https://zeller.productboard.com",
+  },
+  {
+    name: "Periscope Data",
+    emoji:"📈",
+    image:"clip_stack",
+    icon: "ri-list-check-2",
+    link: "https://app.periscopedata.com/app/myzeller/",
+  },  
+  {
+    name: "Zeller Figma",
+    emoji:"🎨",
+    image:"clip_stack",
+    icon: "ri-list-check-2",
+    link: "https://www.figma.com/files/project/37620986/Migrated-Merchant-Portal",
+  }, 
+  {
+    name: "Lever",
+    emoji:"📨",
+    image:"clip_stack",
+    icon: "ri-list-check-2",
+    link: "https://hire.lever.co/",
   },  
 ];
 
