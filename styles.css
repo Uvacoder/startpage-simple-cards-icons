@@ -1,10 +1,10 @@
 /* Custom Variables | Color Scheme */
 
 :root {
-  --primary: #0071CE;
+  --primary: #2cb67d;
   --text-light: #eeeeee;
-  --background: #212322;
-  --background-light: #333138;
+  --background: #16161a;
+  --background-light: #1F1F23;
 }
 
 *,
@@ -84,7 +84,7 @@ main {
   padding: 4rem 8rem;
 
   background-color: var(--background-light);
-  border-radius: 20px;
+  border-radius: 5px;
   border: 2px solid transparent;
 
   display: flex;
