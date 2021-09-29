@@ -64,6 +64,13 @@ const CARDS = [
     link: "https://dashboard.myzeller.com/portal/overview",
   },
   {
+    name: "Figma",
+    emoji:"🎨",
+    image:"figma",
+    icon: "ri-fire-fill",
+    link: "https://www.figma.com/files/team/948006490956154607/Zeller?fuid=988591908120225735",
+  },
+  {
     name: "Hotjar",
     emoji:"🔥",
     image:"flashify",
