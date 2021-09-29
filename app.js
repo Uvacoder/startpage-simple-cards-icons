@@ -106,13 +106,6 @@ const CARDS = [
     link: "https://app.periscopedata.com/app/myzeller/",
   },  
   {
-    name: "Zeller Figma",
-    emoji:"🎨",
-    image:"clip_stack",
-    icon: "ri-list-check-2",
-    link: "https://www.figma.com/files/project/37620986/Migrated-Merchant-Portal",
-  }, 
-  {
     name: "Lever",
     emoji:"📨",
     image:"clip_stack",
