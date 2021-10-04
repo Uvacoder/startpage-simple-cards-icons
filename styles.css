@@ -74,6 +74,9 @@ main {
     text-align: center;
   }
 }
+.card {
+  flex-grow: 1;
+}
 
 .card:link,
 .card:visited {
