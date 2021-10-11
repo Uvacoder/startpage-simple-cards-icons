@@ -43,6 +43,13 @@ const CARDS = [
     link: "https://npco-dev.atlassian.net/jira/projects",
   },
   {
+    name: "Sprint Planning",
+    emoji:"🏃‍♂️",
+    image:"jira",
+    icon: "ri-task-fill",
+    link: "https://npco-dev.atlassian.net/wiki/spaces/PROD/pages/1203666949/Sprint+Planning",
+  },
+  {
     name: "Hubspot",
     emoji:"📇",
     image:"jira",
