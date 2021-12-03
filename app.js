@@ -28,6 +28,14 @@ const CARDS = [
     icon: "ri-calendar-fill",
     link: "https://meet.google.com",
   },
+
+  {
+    name: "Cards of Interest",
+    emoji:"🎴",
+    image:"confluence",
+    icon: "ri-file-list-fill",
+    link: "https://npco-dev.atlassian.net/wiki/spaces/PROD/pages/1413808314/Cards+of+Interest",
+  },
   {
     name: "Confluence",
     emoji:"📄",
