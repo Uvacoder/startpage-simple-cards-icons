@@ -37,11 +37,11 @@ const CARDS = [
     link: "https://npco-dev.atlassian.net/wiki/spaces/PROD/pages/1413808314/Cards+of+Interest",
   },
   {
-    name: "Confluence",
+    name: "Product Confluence",
     emoji:"📄",
     image:"confluence",
     icon: "ri-file-list-fill",
-    link: "https://npco-dev.atlassian.net/wiki/home",
+    link: "https://npco-dev.atlassian.net/wiki/spaces/PROD/overview?homepageId=48529540",
   },
   {
     name: "Jira",
