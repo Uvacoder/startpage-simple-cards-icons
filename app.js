@@ -65,6 +65,13 @@ const CARDS = [
     link: "https://npco-dev.atlassian.net/wiki/spaces/PROD/pages/1203666949/Sprint+Planning",
   },
   {
+    name: "Releases",
+    emoji:"🚆",
+    image:"jira",
+    icon: "ri-task-fill",
+    link: "https://npco-dev.atlassian.net/wiki/spaces/PROD/pages/1266122826/Release+Planning",
+  },
+  {
     name: "Hubspot",
     emoji:"📇",
     image:"jira",
