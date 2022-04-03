@@ -48,7 +48,7 @@ const CARDS = [
     emoji:"❤️",
     image:"jira",
     icon: "ri-task-fill",
-    link: "https://npco-dev.atlassian.net/jira/software/c/projects/ZD",
+    link: "https://npco-dev.atlassian.net/jira/software/c/projects/ZD/boards/20/backlog?issueLimit=100",
   },
   {
     name: "Jira",
