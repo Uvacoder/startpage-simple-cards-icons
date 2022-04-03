@@ -43,6 +43,13 @@ const CARDS = [
     icon: "ri-file-list-fill",
     link: "https://npco-dev.atlassian.net/wiki/spaces/PROD/overview?homepageId=48529540",
   },
+    {
+    name: "Zeller Dev",
+    emoji:"❤️",
+    image:"jira",
+    icon: "ri-task-fill",
+    link: "https://npco-dev.atlassian.net/jira/software/c/projects/ZD",
+  },
   {
     name: "Jira",
     emoji:"💎",
