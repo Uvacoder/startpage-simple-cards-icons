@@ -11,142 +11,162 @@ const CARDS = [
     name: "Gmail",
     emoji:"📧",
     image:"gmail",
-    icon: "ri-mail-fill",
+    icon: "",
     link: "https://mail.google.com/mail/u/0/#inbox",
+    img: "/icons/a_1_1_1_1.png"
   },
   {
     name: "Calendar",
     emoji:"🗓",
     image:"calendar",
-    icon: "ri-calendar-fill",
+    icon: "",
     link: "https://calendar.google.com/calendar/u/0/r/week?tab=mc&pli=1",
+    img: ""
   },
   {
     name: "Google Meet",
     emoji:"📸",
     image:"calendar",
-    icon: "ri-calendar-fill",
+    icon: "",
     link: "https://meet.google.com",
+    img: ""
   },
 
   {
     name: "Cards of Interest",
     emoji:"🎴",
     image:"confluence",
-    icon: "ri-file-list-fill",
+    icon: "",
     link: "https://npco-dev.atlassian.net/wiki/spaces/PROD/pages/1413808314/Cards+of+Interest",
+    img: ""
   },
   {
     name: "Product Confluence",
     emoji:"📄",
     image:"confluence",
-    icon: "ri-file-list-fill",
+    icon: "",
     link: "https://npco-dev.atlassian.net/wiki/spaces/PROD/overview?homepageId=48529540",
+    img: ""
   },
     {
     name: "Zeller Dev",
     emoji:"❤️",
     image:"jira",
-    icon: "ri-task-fill",
+    icon: "",
     link: "https://npco-dev.atlassian.net/jira/software/c/projects/ZD/boards/20/backlog?issueLimit=100",
+    img: ""
   },
   {
     name: "Jira",
     emoji:"💎",
     image:"jira",
-    icon: "ri-task-fill",
+    icon: "",
     link: "https://npco-dev.atlassian.net/jira/projects",
+    img: ""
   },
   {
     name: "JIRA Issue Search",
     emoji:"🔍",
     image:"jira",
-    icon: "ri-task-fill",
+    icon: "",
     link: "https://npco-dev.atlassian.net/issues/?jql=",
+    img: ""
   },
   {
     name: "Sprint Planning",
     emoji:"🏃‍♂️",
     image:"jira",
-    icon: "ri-task-fill",
+    icon: "",
     link: "https://npco-dev.atlassian.net/wiki/spaces/PROD/pages/1203666949/Sprint+Planning",
+    img: ""
   },
   {
     name: "Releases",
     emoji:"🚆",
     image:"jira",
-    icon: "ri-task-fill",
+    icon: "",
     link: "https://npco-dev.atlassian.net/wiki/spaces/PROD/pages/1266122826/Release+Planning",
+    img: ""
   },
   {
     name: "Hubspot",
     emoji:"📇",
     image:"jira",
-    icon: "ri-task-fill",
+    icon: "",
     link: "https://app.hubspot.com/",
+    img: ""
   },
   {
     name: "Zeller Dev",
     emoji:"⚙️",
     image:"cash_app_alt",
-    icon: "ri-dashboard-line",
+    icon: "",
     link: "https://dashboard.myzeller.dev/portal/overview",
+    img: ""
   },
   {
     name: "Zeller Prod",
     emoji:"🚀",
     image:"cash_app",
-    icon: "ri-dashboard-fill",
+    icon: "",
     link: "https://dashboard.myzeller.com/portal/overview",
+    img: ""
   },
   {
     name: "Figma",
     emoji:"🎨",
     image:"figma",
-    icon: "ri-fire-fill",
+    icon: "",
     link: "https://www.figma.com/files/team/948006490956154607/Zeller?fuid=988591908120225735",
+    img: ""
   },
   {
     name: "Hotjar",
     emoji:"🔥",
     image:"flashify",
-    icon: "ri-fire-fill",
+    icon: "",
     link: "https://insights.hotjar.com/",
+    img: ""
   },
   {
     name: "Trello",
     emoji:"📥",
     image:"trello",
-    icon: "ri-trello-fill",
+    icon: "",
     link: "https://trello.com/b/OgDVzuu2/zeller-development",
+    img: ""
   },
   {
     name: "Excalidraw",
     emoji:"🗡",
     image:"tinder_alt",
-    icon: "ri-quill-pen-fill",
+    icon: "",
     link: "https://excalidraw.com/",
+    img: ""
   },
   {
     name: "Productboard",
     emoji:"🍱",
     image:"clip_stack",
-    icon: "ri-list-check-2",
+    icon: "",
     link: "https://zeller.productboard.com",
+    img: ""
   },
   {
     name: "Periscope Data",
     emoji:"📈",
     image:"clip_stack",
-    icon: "ri-list-check-2",
+    icon: "",
     link: "https://app.periscopedata.com/app/myzeller/",
+    img: ""
   },  
   {
     name: "Lever",
     emoji:"📨",
     image:"clip_stack",
-    icon: "ri-list-check-2",
+    icon: "",
     link: "https://hire.lever.co/",
+    img: ""
   },  
 ];
 
@@ -213,46 +233,86 @@ const formatDigit = (digit) => {
   return digit > 9 ? `${digit}` : `0${digit}`;
 };
 
+
 /******************/
-/* CARDS FUNCTION */
+/* ICON CARDS FUNCTION */
 /******************/
 
 const printCards = () => {
   for (const card of CARDS) {
     let currentCard = document.createElement("a");
-    let currentCardImage = document.createElement("img");
-    currentCardImage.appendChild(document.createTextNode(card.image));
     let currentCardText = document.createElement("p");
     currentCardText.appendChild(document.createTextNode(card.name));
-    let currentCardEmoji = document.createElement("p");
-    currentCardEmoji.appendChild(document.createTextNode(card.emoji));
-    //currentCardEmoji.classList.add(card.emoji);
-    //let currentCardIcon = document.createElement("i");
-    //currentCardIcon.classList.add(card.icon);
+    let currentCardIcon;
+
+    if (card.icon === "") {
+      currentCardIcon = document.createElement("img");
+      var useElem = document.createElement("img");
+      useElem.setAttribute("src", card.img);
+
+      currentCardIcon.appendChild(useElem);     
+    } else {
+   //   currentCardIcon = document.createElement("i");
+   //   currentCardIcon.classList.add(card.icon);
+    }
+
 
     // Style the Card Element
     currentCard.classList.add("card");
     currentCard.href = card.link;
 
-    // Style the Card Image
-    currentCardImage.classList.add("card__image");
-    currentCardImage.src = card.image;
-
-    // Style the Emoji
-    currentCardEmoji.classList.add("card__emoji");    
-
     // Style the Icon
-    //currentCardIcon.classList.add("card__icon");
+    currentCardIcon.classList.add("card__icon");
 
     // Style the Text
     currentCardText.classList.add("card__name");
 
-    //currentCard.append(currentCardIcon);
-    currentCard.append(currentCardEmoji);
+    currentCard.append(currentCardIcon);
     currentCard.append(currentCardText);
     cardContainer.appendChild(currentCard);
   }
 };
+
+///******************/
+///* CARDS FUNCTION */
+///******************/
+//
+//const printCards = () => {
+//  for (const card of CARDS) {
+//    let currentCard = document.createElement("a");
+//    let currentCardImage = document.createElement("img");
+//    currentCardImage.appendChild(document.createTextNode(card.image));
+//    let currentCardText = document.createElement("p");
+//    currentCardText.appendChild(document.createTextNode(card.name));
+//    let currentCardEmoji = document.createElement("p");
+//    currentCardEmoji.appendChild(document.createTextNode(card.emoji));
+//    //currentCardEmoji.classList.add(card.emoji);
+//    //let currentCardIcon = document.createElement("i");
+//    //currentCardIcon.classList.add(card.icon);
+//
+//    // Style the Card Element
+//    currentCard.classList.add("card");
+//    currentCard.href = card.link;
+//
+//    // Style the Card Image
+//    currentCardImage.classList.add("card__image");
+//    currentCardImage.src = card.image;
+//
+//    // Style the Emoji
+//    currentCardEmoji.classList.add("card__emoji");    
+//
+//    // Style the Icon
+//    //currentCardIcon.classList.add("card__icon");
+//
+//    // Style the Text
+//    currentCardText.classList.add("card__name");
+//
+//    //currentCard.append(currentCardIcon);
+//    currentCard.append(currentCardEmoji);
+//    currentCard.append(currentCardText);
+//    cardContainer.appendChild(currentCard);
+//  }
+//};
 
 /****************/
 /* STARTER CODE */
