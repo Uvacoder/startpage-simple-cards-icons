@@ -21,7 +21,7 @@ const CARDS = [
     image:"calendar",
     icon: "",
     link: "https://calendar.google.com/calendar/u/0/r/week?tab=mc&pli=1",
-    img: ""
+    img: "../root-startpage/icons/google_calendar.png"
   },
   {
     name: "Google Meet",
@@ -29,7 +29,7 @@ const CARDS = [
     image:"calendar",
     icon: "",
     link: "https://meet.google.com",
-    img: ""
+    img: "../root-startpage/icons/google_meet.png"
   },
 
   {
@@ -38,7 +38,7 @@ const CARDS = [
     image:"confluence",
     icon: "",
     link: "https://npco-dev.atlassian.net/wiki/spaces/PROD/pages/1413808314/Cards+of+Interest",
-    img: ""
+    img: "../root-startpage/icons/matpriskollen.png"
   },
   {
     name: "Product Confluence",
@@ -46,7 +46,7 @@ const CARDS = [
     image:"confluence",
     icon: "",
     link: "https://npco-dev.atlassian.net/wiki/spaces/PROD/overview?homepageId=48529540",
-    img: ""
+    img: "../root-startpage/icons/confluence.png"
   },
     {
     name: "Zeller Dev",
@@ -54,7 +54,7 @@ const CARDS = [
     image:"jira",
     icon: "",
     link: "https://npco-dev.atlassian.net/jira/software/c/projects/ZD/boards/20/backlog?issueLimit=100",
-    img: ""
+    img: "../root-startpage/icons/gfx_tool.png"
   },
   {
     name: "Jira",
@@ -62,7 +62,7 @@ const CARDS = [
     image:"jira",
     icon: "",
     link: "https://npco-dev.atlassian.net/jira/projects",
-    img: ""
+    img: "../root-startpage/icons/jira.png"
   },
   {
     name: "JIRA Issue Search",
@@ -70,7 +70,7 @@ const CARDS = [
     image:"jira",
     icon: "",
     link: "https://npco-dev.atlassian.net/issues/?jql=",
-    img: ""
+    img: "../root-startpage/icons/clip_stack.png"
   },
   {
     name: "Sprint Planning",
@@ -78,7 +78,7 @@ const CARDS = [
     image:"jira",
     icon: "",
     link: "https://npco-dev.atlassian.net/wiki/spaces/PROD/pages/1203666949/Sprint+Planning",
-    img: ""
+    img: "../root-startpage/icons/serenity_alt.png"
   },
   {
     name: "Releases",
@@ -86,7 +86,7 @@ const CARDS = [
     image:"jira",
     icon: "",
     link: "https://npco-dev.atlassian.net/wiki/spaces/PROD/pages/1266122826/Release+Planning",
-    img: ""
+    img: "../root-startpage/icons/hyperion.png"
   },
   {
     name: "Hubspot",
@@ -94,7 +94,7 @@ const CARDS = [
     image:"jira",
     icon: "",
     link: "https://app.hubspot.com/",
-    img: ""
+    img: "../root-startpage/icons/contacts_2.png"
   },
   {
     name: "Zeller Dev",
@@ -102,7 +102,7 @@ const CARDS = [
     image:"cash_app_alt",
     icon: "",
     link: "https://dashboard.myzeller.dev/portal/overview",
-    img: ""
+    img: "../root-startpage/icons/health_mate.png"
   },
   {
     name: "Zeller Prod",
@@ -110,7 +110,7 @@ const CARDS = [
     image:"cash_app",
     icon: "",
     link: "https://dashboard.myzeller.com/portal/overview",
-    img: ""
+    img: "../root-startpage/icons/health.png"
   },
   {
     name: "Figma",
@@ -118,15 +118,7 @@ const CARDS = [
     image:"figma",
     icon: "",
     link: "https://www.figma.com/files/team/948006490956154607/Zeller?fuid=988591908120225735",
-    img: ""
-  },
-  {
-    name: "Hotjar",
-    emoji:"🔥",
-    image:"flashify",
-    icon: "",
-    link: "https://insights.hotjar.com/",
-    img: ""
+    img: "../root-startpage/icons/huawei_themes.png"
   },
   {
     name: "Trello",
@@ -134,15 +126,7 @@ const CARDS = [
     image:"trello",
     icon: "",
     link: "https://trello.com/b/OgDVzuu2/zeller-development",
-    img: ""
-  },
-  {
-    name: "Excalidraw",
-    emoji:"🗡",
-    image:"tinder_alt",
-    icon: "",
-    link: "https://excalidraw.com/",
-    img: ""
+    img: "../root-startpage/icons/trello.png"
   },
   {
     name: "Productboard",
@@ -150,7 +134,7 @@ const CARDS = [
     image:"clip_stack",
     icon: "",
     link: "https://zeller.productboard.com",
-    img: ""
+    img: "../root-startpage/icons/subscriptions_alt.png"
   },
   {
     name: "Periscope Data",
@@ -158,7 +142,7 @@ const CARDS = [
     image:"clip_stack",
     icon: "",
     link: "https://app.periscopedata.com/app/myzeller/",
-    img: ""
+    img: "../root-startpage/icons/data_counter_widget_alt.png"
   },  
   {
     name: "Lever",
@@ -166,7 +150,7 @@ const CARDS = [
     image:"clip_stack",
     icon: "",
     link: "https://hire.lever.co/",
-    img: ""
+    img: "../root-startpage/icons/contacts_alt_2.png"
   },  
 ];
 
@@ -246,7 +230,7 @@ const printCards = () => {
     let currentCardIcon;
 
     if (card.icon === "") {
-      currentCardIcon = document.createElement("img");
+      currentCardIcon = document.createElement("p");
       var useElem = document.createElement("img");
       useElem.setAttribute("src", card.img);
 
