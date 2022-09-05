@@ -13,7 +13,7 @@ const CARDS = [
     image:"gmail",
     icon: "",
     link: "https://mail.google.com/mail/u/0/#inbox",
-    img: "/icons/a_1_1_1_1.png"
+    img: "../root-startpage/icons/email.png"
   },
   {
     name: "Calendar",
