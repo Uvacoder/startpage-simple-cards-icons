@@ -2,9 +2,9 @@
 
 :root {
   --primary: #66b3ff;
-  --text-light: #eeeeee;
+  --text-light: #000000;
   --background: #f2f2f2;
-  --background-light: #2F3136;
+  --background-light: #1e14e6;
 }
 
 *,
