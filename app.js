@@ -4,7 +4,7 @@
 
 /* -------------------------------------------------------- */
 
-const NAME = "Zellerite";
+const NAME = "Jason";
 
 const CARDS = [
   {
@@ -25,13 +25,6 @@ const CARDS = [
     link: "https://meet.google.com",
     img: "../root-startpage/icons/google_meet.png"
   },
-
-  {
-    name: "Cards of Interest",
-    icon: "",
-    link: "https://npco-dev.atlassian.net/wiki/spaces/PROD/pages/1413808314/Cards+of+Interest",
-    img: "../root-startpage/icons/matpriskollen.png"
-  },
   {
     name: "Product Confluence",
     icon: "",
@@ -51,9 +44,9 @@ const CARDS = [
     img: "../root-startpage/icons/jira.png"
   },
   {
-    name: "JIRA Issue Search",
+    name: "Jira: Invoicing Sprint",
     icon: "",
-    link: "https://npco-dev.atlassian.net/issues/?jql=",
+    link: "https://npco-dev.atlassian.net/jira/software/c/projects/ZD/boards/80",
     img: "../root-startpage/icons/clip_stack.png"
   },
   {
