@@ -4,151 +4,97 @@
 
 /* -------------------------------------------------------- */
 
-const NAME = "Zellerite";
+const NAME = "Jesse";
 
 const CARDS = [
   {
     name: "Gmail",
-    emoji:"📧",
-    image:"gmail",
-    icon: "",
     link: "https://mail.google.com/mail/u/0/#inbox",
     img: "../root-startpage/icons/email.png"
   },
   {
     name: "Calendar",
-    emoji:"🗓",
-    image:"calendar",
-    icon: "",
     link: "https://calendar.google.com/calendar/u/0/r/week?tab=mc&pli=1",
     img: "../root-startpage/icons/google_calendar.png"
   },
   {
     name: "Google Meet",
-    emoji:"📸",
-    image:"calendar",
-    icon: "",
     link: "https://meet.google.com",
     img: "../root-startpage/icons/google_meet.png"
   },
 
   {
-    name: "Cards of Interest",
-    emoji:"🎴",
-    image:"confluence",
-    icon: "",
+    name: "Cards of Interest",    
     link: "https://npco-dev.atlassian.net/wiki/spaces/PROD/pages/1413808314/Cards+of+Interest",
     img: "../root-startpage/icons/matpriskollen.png"
   },
   {
-    name: "Product Confluence",
-    emoji:"📄",
-    image:"confluence",
-    icon: "",
+    name: "Product Confluence",    
     link: "https://npco-dev.atlassian.net/wiki/spaces/PROD/overview?homepageId=48529540",
     img: "../root-startpage/icons/confluence.png"
   },
     {
-    name: "Zeller Dev",
-    emoji:"❤️",
-    image:"jira",
-    icon: "",
+    name: "Zeller Dev",    
     link: "https://npco-dev.atlassian.net/jira/software/c/projects/ZD/boards/20/backlog?issueLimit=100",
     img: "../root-startpage/icons/gfx_tool.png"
   },
   {
-    name: "Jira",
-    emoji:"💎",
-    image:"jira",
-    icon: "",
+    name: "Jira",    
     link: "https://npco-dev.atlassian.net/jira/projects",
     img: "../root-startpage/icons/jira.png"
   },
   {
-    name: "JIRA Issue Search",
-    emoji:"🔍",
-    image:"jira",
-    icon: "",
+    name: "JIRA Issue Search",    
     link: "https://npco-dev.atlassian.net/issues/?jql=",
     img: "../root-startpage/icons/clip_stack.png"
   },
   {
-    name: "Sprint Planning",
-    emoji:"🏃‍♂️",
-    image:"jira",
-    icon: "",
+    name: "Sprint Planning",    
     link: "https://npco-dev.atlassian.net/wiki/spaces/PROD/pages/1203666949/Sprint+Planning",
     img: "../root-startpage/icons/serenity_alt.png"
   },
   {
-    name: "Releases",
-    emoji:"🚆",
-    image:"jira",
-    icon: "",
+    name: "Releases",    
     link: "https://npco-dev.atlassian.net/wiki/spaces/PROD/pages/1266122826/Release+Planning",
     img: "../root-startpage/icons/hyperion.png"
   },
   {
-    name: "Hubspot",
-    emoji:"📇",
-    image:"jira",
-    icon: "",
+    name: "Hubspot",    
     link: "https://app.hubspot.com/",
     img: "../root-startpage/icons/contacts_2.png"
   },
   {
-    name: "Zeller Dev",
-    emoji:"⚙️",
-    image:"cash_app_alt",
-    icon: "",
+    name: "Zeller Dev",    
     link: "https://dashboard.myzeller.dev/portal/overview",
     img: "../root-startpage/icons/health_mate.png"
   },
   {
-    name: "Zeller Prod",
-    emoji:"🚀",
-    image:"cash_app",
-    icon: "",
+    name: "Zeller Prod",    
     link: "https://dashboard.myzeller.com/portal/overview",
     img: "../root-startpage/icons/health.png"
   },
   {
-    name: "Figma",
-    emoji:"🎨",
-    image:"figma",
-    icon: "",
+    name: "Figma",    
     link: "https://www.figma.com/files/team/948006490956154607/Zeller?fuid=988591908120225735",
     img: "../root-startpage/icons/huawei_themes.png"
   },
   {
-    name: "Trello",
-    emoji:"📥",
-    image:"trello",
-    icon: "",
+    name: "Trello",    
     link: "https://trello.com/b/OgDVzuu2/zeller-development",
     img: "../root-startpage/icons/trello.png"
   },
   {
-    name: "Productboard",
-    emoji:"🍱",
-    image:"clip_stack",
-    icon: "",
+    name: "Productboard",    
     link: "https://zeller.productboard.com",
     img: "../root-startpage/icons/subscriptions_alt.png"
   },
   {
-    name: "Periscope Data",
-    emoji:"📈",
-    image:"clip_stack",
-    icon: "",
+    name: "Periscope Data",    
     link: "https://app.periscopedata.com/app/myzeller/",
     img: "../root-startpage/icons/data_counter_widget_alt.png"
   },  
   {
-    name: "Lever",
-    emoji:"📨",
-    image:"clip_stack",
-    icon: "",
+    name: "Lever",    
     link: "https://hire.lever.co/",
     img: "../root-startpage/icons/contacts_alt_2.png"
   },  
