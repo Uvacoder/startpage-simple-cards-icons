@@ -1,7 +1,7 @@
 /* Custom Variables | Color Scheme */
 
 :root {
-  --primary: #ADFF2F;
+  --primary: #2cb67d;
   --text-light: #eeeeee;
   --background: #17191C;
   --background-light: #2F3136;
@@ -40,6 +40,9 @@ main {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+}
+img {
+  width: 128px;
 }
 
 .header {
@@ -155,12 +158,18 @@ main {
 
 .card__name {
   font-weight: 600;
-
   transform: translate(-50%, -50%);
-
   position: absolute;
-  bottom: -25%;
+  bottom: -35%;
   left: 50%;
-
   transition: 0.2s;
 }
+
+
+
+
+
+
+
+
+
