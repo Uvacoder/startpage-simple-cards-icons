@@ -4,97 +4,115 @@
 
 /* -------------------------------------------------------- */
 
-const NAME = "Jason";
+const NAME = "Zellerite";
 
 const CARDS = [
   {
     name: "Gmail",
+    icon: "",
     link: "https://mail.google.com/mail/u/0/#inbox",
     img: "../root-startpage/icons/email.png"
   },
   {
     name: "Calendar",
+    icon: "",
     link: "https://calendar.google.com/calendar/u/0/r/week?tab=mc&pli=1",
     img: "../root-startpage/icons/google_calendar.png"
   },
   {
     name: "Google Meet",
+    icon: "",
     link: "https://meet.google.com",
     img: "../root-startpage/icons/google_meet.png"
   },
 
   {
-    name: "Cards of Interest",    
+    name: "Cards of Interest",
+    icon: "",
     link: "https://npco-dev.atlassian.net/wiki/spaces/PROD/pages/1413808314/Cards+of+Interest",
     img: "../root-startpage/icons/matpriskollen.png"
   },
   {
-    name: "Product Confluence",    
+    name: "Product Confluence",
+    icon: "",
     link: "https://npco-dev.atlassian.net/wiki/spaces/PROD/overview?homepageId=48529540",
     img: "../root-startpage/icons/confluence.png"
   },
     {
-    name: "Zeller Dev",    
+    name: "Zeller Dev",
+    icon: "",
     link: "https://npco-dev.atlassian.net/jira/software/c/projects/ZD/boards/20/backlog?issueLimit=100",
     img: "../root-startpage/icons/gfx_tool.png"
   },
   {
-    name: "Jira",    
+    name: "Jira",
+    icon: "",
     link: "https://npco-dev.atlassian.net/jira/projects",
     img: "../root-startpage/icons/jira.png"
   },
   {
-    name: "JIRA Issue Search",    
+    name: "JIRA Issue Search",
+    icon: "",
     link: "https://npco-dev.atlassian.net/issues/?jql=",
     img: "../root-startpage/icons/clip_stack.png"
   },
   {
-    name: "Sprint Planning",    
+    name: "Sprint Planning",
+    icon: "",
     link: "https://npco-dev.atlassian.net/wiki/spaces/PROD/pages/1203666949/Sprint+Planning",
     img: "../root-startpage/icons/serenity_alt.png"
   },
   {
-    name: "Releases",    
+    name: "Releases",
+    icon: "",
     link: "https://npco-dev.atlassian.net/wiki/spaces/PROD/pages/1266122826/Release+Planning",
     img: "../root-startpage/icons/hyperion.png"
   },
   {
-    name: "Hubspot",    
+    name: "Hubspot",
+    icon: "",
     link: "https://app.hubspot.com/",
     img: "../root-startpage/icons/contacts_2.png"
   },
   {
-    name: "Zeller Dev",    
+    name: "Zeller Dev",
+    icon: "",
     link: "https://dashboard.myzeller.dev/portal/overview",
     img: "../root-startpage/icons/health_mate.png"
   },
   {
-    name: "Zeller Prod",    
+    name: "Zeller Prod",
+    icon: "",
     link: "https://dashboard.myzeller.com/portal/overview",
     img: "../root-startpage/icons/health.png"
   },
   {
-    name: "Figma",    
+    name: "Figma",
+    icon: "",
     link: "https://www.figma.com/files/team/948006490956154607/Zeller?fuid=988591908120225735",
     img: "../root-startpage/icons/huawei_themes.png"
   },
   {
-    name: "Trello",    
+    name: "Trello",
+    icon: "",
     link: "https://trello.com/b/OgDVzuu2/zeller-development",
     img: "../root-startpage/icons/trello.png"
   },
   {
-    name: "Productboard",    
+    name: "Productboard",
+    icon: "",
     link: "https://zeller.productboard.com",
     img: "../root-startpage/icons/subscriptions_alt.png"
   },
   {
-    name: "Periscope Data",    
+    name: "Periscope Data",
+    icon: "",
     link: "https://app.periscopedata.com/app/myzeller/",
     img: "../root-startpage/icons/data_counter_widget_alt.png"
   },  
   {
-    name: "Lever",    
+    name: "Lever",
+    icon: "",
     link: "https://hire.lever.co/",
     img: "../root-startpage/icons/contacts_alt_2.png"
   },  
